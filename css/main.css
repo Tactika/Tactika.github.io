@@ -1,160 +1,70 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* Style.CSS */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+
+/* Reset */
+
+* {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+    border: 0 none;
+    outline: 0;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
+// /* My Styles */
+.container {
+    margin-bottom: 0;
 }
 
-body {
-    line-height: 1;
+.no-bottom {
+    margin-bottom: 0;
 }
 
-ol,
-ul {
-    list-style: none;
+.jumbotron {
+    position: relative;
+    overflow: show;
+    background: #000 url('https://images.unsplash.com/photo-1430165558479-de3cf8cf1478?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a8d560cd877f002980248703b48efff0') center top;
+    background-size: cover;
 }
 
-blockquote,
-q {
-    quotes: none;
+.jumbotron h1,
+h2 {
+    text-shadow: -2px -2px 5px #ccc;
 }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
+#contacts i {
+    font-size: 4em;
 }
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+a:hover {
+    text-decoration: none;
 }
-
-body {
-    background-color: #131515;
+footer {
+    padding: 2em 0;
 }
-
-main {
-    width: 80%;
-    margin: 0 auto;
+#skills ul {
+    list-style-position: inside;
 }
-
-.right {
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-clip-path: polygon(60% 0, 100% 0%, 100% 100%, 40% 100%);
-    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 40% 100%);
+#portfolio img {
+    height: 240px;
+    width: 320px;
 }
+@media (max-width: 755px) {
+    .navbar-brand {
+        width: 100%;
+        clear: bottom;
+        margin: 0 auto;
+    }
+    .navbar-brand img {
+        margin: 0 auto;
+    }
+    h2, h4 {
+        text-align: center;
+    }
+}
+@media (max-width: 719px) {
+    .navbar {
+        text-align: center;
+    }
 
-.left {
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-clip-path: polygon(0 0, 60% 0%, 40% 100%, 0% 100%);
-    clip-path: polygon(0 0, 60% 0%, 40% 100%, 0% 100%);
 }
