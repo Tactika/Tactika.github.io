@@ -34,6 +34,7 @@
 
 .jumbotron h1,
 h2 {
+    color: whitesmoke;
     text-shadow: -2px -2px 5px #ccc;
 }
 #contacts i {
