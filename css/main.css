@@ -31,10 +31,15 @@
     background: #000 url('/img/bg-pro.jpg') center top;
     background-size: cover;
 }
+#hero h1 {
+    color: whitesmoke;
+}
 
+#hero h2 {
+    color: whitesmoke;
+}
 .jumbotron h1,
 h2 {
-    color: whitesmoke;
     text-shadow: -2px -2px 5px #ccc;
 }
 #contacts i {
