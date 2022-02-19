@@ -1,172 +1,249 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <!-- Meta Info -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Damien Richcreek - Full Stack Software Engineer">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Damien Richcreek">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Damien Richcreek - Full Stack Software Engineer"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Damien Richcreek" />
+
     <!-- Title Info -->
     <title>Damien Richcreek - Full Stack Software Engineer</title>
-    
+
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/9.3.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <!-- <script defer src="/__/firebase/9.3.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.3.0/firebase-performance-compat.js"></script> -->
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
+
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
     <!-- Google Font API -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Load Site CSS -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!-- Load Site JavaScript -->
     <script src="js/script.js"></script>
-
   </head>
   <body>
     <main>
       <div class="navbar navbar-inverse no-bottom">
         <nav class="container">
-            <div class="navbar-brand">
-                <img id="logo-img" src="img/richcreekdev-logos_transparent_sm.png" alt="Damien Richcreek">
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</a></li>
-                <li><a href="#skills"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Skills</a></li>
-                <li><a href="#portfolio"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Portfolio</a></li>
-                <li><a href="#contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a></li>
-            </ul>
+          <div class="navbar-brand">
+            <img
+              id="logo-img"
+              src="img/richcreekdev-logos_transparent_sm.png"
+              alt="Damien Richcreek"
+            />
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#about"
+                ><span
+                  class="glyphicon glyphicon-user"
+                  aria-hidden="true"
+                ></span>
+                About</a
+              >
+            </li>
+            <li>
+              <a href="#skills"
+                ><span
+                  class="glyphicon glyphicon-stats"
+                  aria-hidden="true"
+                ></span>
+                Skills</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio"
+                ><span
+                  class="glyphicon glyphicon-briefcase"
+                  aria-hidden="true"
+                ></span>
+                Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#contact"
+                ><span
+                  class="glyphicon glyphicon-envelope"
+                  aria-hidden="true"
+                ></span>
+                Contact</a
+              >
+            </li>
+          </ul>
         </nav>
-    </div>
-    <!-- Nav End -->
-    <div class="jumbotron no-bottom" id="hero">
+      </div>
+      <!-- Nav End -->
+      <div class="jumbotron no-bottom" id="hero">
         <div class="container-fluid">
-            <h1 class="row text-center">Damien Richcreek</h1>
-            <h2 class="row text-center">Full Stack Software Engineer</h2>
+          <h1 class="row text-center">Damien Richcreek</h1>
+          <h2 class="row text-center">Full Stack Software Engineer</h2>
         </div>
-    </div>
-    <!-- Hero End -->
-    <section class="container" id="about">
+      </div>
+      <!-- Hero End -->
+      <section class="container" id="about">
         <h2>About</h2>
         <div>
-            <p class="lead">Hello! My name is Damien Richcreek, and I'm currently a student and Freelance Full Stack Web Developer. I see the tech field as a perfect place for myself, since I also consider myself a life-long learner.</p>
-            <p class="lead">I'm also familiar with Git/GitHub and the hardware side of computer networks and telephony. I have been working on expanding my skills to include Node.js, Python and keeping up to date on relavent frontend and backend technologies.</p>
+          <p class="lead">
+            Hello! My name is Damien Richcreek, and I'm currently a student and
+            Freelance Full Stack Web Developer. I see the tech field as a
+            perfect place for myself, since I also consider myself a life-long
+            learner.
+          </p>
+          <p class="lead">
+            I'm also familiar with Git/GitHub and the hardware side of computer
+            networks and telephony. I have been working on expanding my skills
+            to include Node.js, Python and keeping up to date on relavent
+            frontend and backend technologies.
+          </p>
         </div>
-    </section>
-    <!-- About Section End -->
-    <section class="container" id="skills">
+      </section>
+      <!-- About Section End -->
+      <section class="container" id="skills">
         <div>
-            <h2>Skills</h2>
+          <h2>Skills</h2>
         </div>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                <h4>Client-Side</h4>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>Vue.js</li>
-                    <li>Angular</li>
-                </ul>
-            </div>
+          <div class="thumbnail">
+            <h4>Client-Side</h4>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Vue.js</li>
+              <li>Angular</li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                <h4>Server-Side</h4>
-                <ul>
-                    <li>Node.js &amp; NPM</li>
-                    <li>Express.js</li>
-                    <li>Django</li>
-                    <li>MongoDB</li>
-                    <li>MySQL</li>
-                    <li>API's &amp; RESTful Services</li>
-                </ul>
-            </div>
+          <div class="thumbnail">
+            <h4>Server-Side</h4>
+            <ul>
+              <li>Node.js &amp; NPM</li>
+              <li>Express.js</li>
+              <li>Django</li>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>API's &amp; RESTful Services</li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                <h4>Tools</h4>
-                <ul>
-                    <li>Git &amp; GitHub</li>
-                    <li>Basic SSH</li>
-                    <li>Web Host Setup</li>
-                    <li>Sublime Text</li>
-                    <li>IntelliJ IDEA</li>
-                    <li>BASH Terminal</li>
-                </ul>
-            </div>
+          <div class="thumbnail">
+            <h4>Tools</h4>
+            <ul>
+              <li>Git &amp; GitHub</li>
+              <li>Basic SSH</li>
+              <li>Web Host Setup</li>
+              <li>Sublime Text</li>
+              <li>IntelliJ IDEA</li>
+              <li>BASH Terminal</li>
+            </ul>
+          </div>
         </div>
-    </section>
-    <!-- Skills Section End -->
-    <section class="container" id="portfolio">
+      </section>
+      <!-- Skills Section End -->
+      <section class="container" id="portfolio">
         <div>
-            <h2>Portfolio</h2>
+          <h2>Portfolio</h2>
         </div>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                <a href="https://richcreek.dev" target="_blank"><img src="img/Screenshot_3.png" alt="Richcreek.dev" /></a>
-                <h4 class="text-center">My Dev Portfolio</h4>
-                <p>My developer profile created by using HTML5, CSS3, and JavaScript. Hosted using Google Firebase pushed to a GitHub Repo.</p>
-            </div>
+          <div class="thumbnail">
+            <a href="https://richcreek.dev" target="_blank"
+              ><img src="img/Screenshot_3.png" alt="Richcreek.dev"
+            /></a>
+            <h4 class="text-center">My Dev Portfolio</h4>
+            <p>
+              My developer profile created by using HTML5, CSS3, and JavaScript.
+              Hosted using Google Firebase pushed to a GitHub Repo.
+            </p>
+          </div>
         </div>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                <a href="http://jobxite.herokuapp.com/" target="_blank"><img src="img/Screenshot_2.png" alt="JobXite" /></a>
-                <h4 class="text-center">Equipment Rental App</h4>
-                <p>This is a equipment rental app created with HTML5, CSS3, with Python and Django. The app is served by Heroku</p>
-            </div>
+          <div class="thumbnail">
+            <a href="http://jobxite.herokuapp.com/" target="_blank"
+              ><img src="img/Screenshot_2.png" alt="JobXite"
+            /></a>
+            <h4 class="text-center">Equipment Rental App</h4>
+            <p>
+              This is a equipment rental app created with HTML5, CSS3, with
+              Python and Django. The app is served by Heroku
+            </p>
+          </div>
         </div>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                <img src="img/bg-desk.jpg" alt="Project 3" />
-                <h4 class="text-center">Project 3</h4>
-                <p>This is a short list of my skills that I can provide. Content under construction.</p>
-            </div>
+          <div class="thumbnail">
+            <img src="img/bg-desk.jpg" alt="Project 3" />
+            <h4 class="text-center">Project 3</h4>
+            <p>
+              This is a short list of my skills that I can provide. Content
+              under construction.
+            </p>
+          </div>
         </div>
-    </section>
-    <!-- Portfolio Section End -->
-    <section class="container" id="contact">
+      </section>
+      <!-- Portfolio Section End -->
+      <section class="container" id="contact">
         <div>
-            <h2>Contact</h2>
+          <h2>Contact</h2>
         </div>
         <div id="contacts" class="text-center">
-            <div class="col-xs-6 col-sm-3"><a href="https://www.linkedin.com/in/drichcreek" target="_blank"><i class="fa fa-linkedin-square"></i><br>LinkedIn</a></div>
-            <div class="col-xs-6 col-sm-3"><a href="https://github.com/Tactika" target="_blank"><i class="fa fa-github-square"></i><br>GitHub</a></div>
-            <div class="col-xs-6 col-sm-3"><a href="https://www.facebook.com/richcreekdj" target="_blank"><i class="fa fa-facebook-square"></i><br>Facebook</a></div>
-            <div class="col-xs-6 col-sm-3"><a href="mailto:damien@richcreek.dev" target="_blank"><i class="fa fa-envelope"></i><br>E-mail</a></div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="https://www.linkedin.com/in/drichcreek" target="_blank"
+              ><i class="fa fa-linkedin-square"></i><br />LinkedIn</a
+            >
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="https://github.com/Tactika" target="_blank"
+              ><i class="fa fa-github-square"></i><br />GitHub</a
+            >
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="https://www.facebook.com/richcreekdj" target="_blank"
+              ><i class="fa fa-facebook-square"></i><br />Facebook</a
+            >
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="mailto:damien@richcreek.dev" target="_blank"
+              ><i class="fa fa-envelope"></i><br />E-mail</a
+            >
+          </div>
         </div>
-    </section>
-    <!-- Contact Section End -->
-    <footer class="container-fluid">
+      </section>
+      <!-- Contact Section End -->
+      <footer class="container-fluid">
         <div class="text-center">
-            <small>Copyright &copy; 2021 <a href="mailto:damien@richcreek.dev" target="_blank">Damien Richcreek</a></small>
+          <small
+            >Copyright &copy; 2021
+            <a href="mailto:damien@richcreek.dev" target="_blank"
+              >Damien Richcreek</a
+            ></small
+          >
         </div>
-    </footer>
-    <!-- Container End -->
-    <script src="js/script.js"></script>
+      </footer>
+      <!-- Container End -->
+      <script src="js/script.js"></script>
     </main>
-
   </body>
 </html>
