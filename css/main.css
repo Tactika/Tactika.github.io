@@ -58,6 +58,9 @@ body h2 {
 #portfolio {
   min-height: 50vh;
 }
+#about {
+  margin-top: 10em;
+}
 #contact {
   min-height: auto;
 }
