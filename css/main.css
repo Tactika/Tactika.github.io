@@ -85,6 +85,12 @@ footer {
 }
 #skills ul {
   list-style-position: inside;
+  list-style-type: none;
+}
+#skills li {
+  width: 75px;
+  margin: 5px 0;
+  padding: 7px;
 }
 .thumbnail {
   padding: 20px;
@@ -100,7 +106,7 @@ footer {
   flex-wrap: wrap;
 }
 #cta {
-  margin-top:3em;
+  margin-top: 3em;
 }
 @media (max-width: 755px) {
   .navbar-brand {
